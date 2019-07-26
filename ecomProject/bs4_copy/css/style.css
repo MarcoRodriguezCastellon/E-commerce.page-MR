@@ -1,0 +1,16 @@
+
+.navbar{
+    background-color: rgba(241, 171, 20, 0.5);
+    border-bottom: 1px solid rgb(255, 12, 194);
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.navbar .navbar-nav .nav-link{
+    color: rgba(209, 25, 255, 0.5)
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: rgba(255, 25, 25, 0.5)
+}
+
+.navbar-toggler-icon{
+    color: rgb(161, 99, 4)
+}
