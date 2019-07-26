@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="fontawesome/css/fontawesome.css"> -->
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+    <!--<style type=text/css>
+        div {
+          border-color: rgb(63, 3, 68);
+          border-style: solid;
+        }
+      </style>-->
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+          
+        <a class="navbar-brand" href="#"><img src="logo_stuff/twitter_header_photo_1.png" class="img-fluid" alt="logo" width="120px" height="120px" ></a>
+          
+        <div class="collapse navbar-collapse" id="navigation-bar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="homepage.html">Homepage</a></li>
+                <li class="nav-item"><a class="nav-link" href="productpage.html">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+        <!--End of Nav-->
+
+        <div class="slider">
+            <div>
+              <h3>Nintendo</h3>
+              <ul>
+                <li>Consoles</li>
+                <li>Games</li>
+                <li>Merch</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Playstation</h3>
+              <ul>
+                <li>Consoles</li>
+                <li>Games</li>
+                <li>Merch</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Xbox</h3>
+              <ul>
+                <li>Consoles</li>
+                <li>Games</li>
+                <li>Merch</li>
+             </ul>
+           </div>
+           <div>
+              <h3>Other</h3>
+              <ul>
+                <li>Consoles</li>
+                <li>Games</li>
+                <li>Merch</li>
+             </ul>
+          </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script>
+        $('.slider').bxSlider({
+            autoControls: true,
+            auto: true,
+            pager: true,
+            mode: 'fade',
+            captions: true,
+            speed: 1000,
+        });
+        </script>
+    </body>
+</html>
