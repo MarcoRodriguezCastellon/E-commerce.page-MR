@@ -27,6 +27,10 @@ body{
     margin-top: 100px;
 }
 
+#top-container-p{
+    text-align: center;
+}
+
 .page-header{
     font-size: 20px;
     text-align: center;
@@ -161,8 +165,6 @@ ul{
     color: #53565a;
     text-decoration: underline;
 }
-
-
 
 .social-media{
     width: 30%;
